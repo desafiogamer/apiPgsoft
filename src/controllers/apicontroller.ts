@@ -88,7 +88,7 @@ export default {
                res.send({
                   status: 1,
                   msg: "SUCCESS",
-                  launch_url: `http://127.0.0.1:3000/${codegame}/index.html?operator_token=Zm9saWFiZXQ%3D&btt=1&t=${getnewuser[0].token}&or=127.0.0.1:3000&api=127.0.0.1:3000`,
+                  launch_url: `https://vercel.com/desafiogamers-projects/api-pgsoft/${codegame}/index.html?operator_token=Zm9saWFiZXQ%3D&btt=1&t=${getnewuser[0].token}&or=vercel.com/desafiogamers-projects/api-pgsoft&api=vercel.com/desafiogamers-projects/api-pgsoft`,
                   user_code: getnewuser[0].username,
                   user_balance: getnewuser[0].saldo,
                   user_created: true,
@@ -107,7 +107,7 @@ export default {
             res.send({
                status: 1,
                msg: "SUCCESS",
-               launch_url: `http://127.0.0.1:3000/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${user[0].token}&or=127.0.0.1:3000&api=127.0.0.1:3000`,
+               launch_url: `https://vercel.com/desafiogamers-projects/api-pgsoft/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${user[0].token}&or=vercel.com/desafiogamers-projects/api-pgsoft&api=vercel.com/desafiogamers-projects/api-pgsoft`,
                user_code: user[0].username,
                user_balance: user[0].saldo,
                user_created: false,
